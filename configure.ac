@@ -16,8 +16,20 @@ AC_PROG_INSTALL
 # Checks for header files.
 AC_HEADER_STDC
  
-AC_CHECK_HEADERS([stddef.h \
-dirent.h stdio.h])
+AC_CHECK_HEADERS([\
+        stddef.h \
+stdio.h\
+dirent.h\
+stdlib.h\
+sys/stat.h\
+sys/types.h\
+sys/stat.h\
+unistd.h\
+string.h\
+sys/stat.h\
+sys/types.h\
+sys/stat.h\
+])
 # Checks for typedefs, structures, and compiler characteristics.
  
 # Checks for library functions.
