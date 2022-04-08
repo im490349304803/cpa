@@ -1,7 +1,7 @@
 AUTOMAKE_OPTIONS = foreign
 bin_PROGRAMS = cpa
  
-cpa_SOURCES = main.c FileCopy.h FileCopy.c
+cpa_SOURCES = main.c FileCopy.h FileCopy.c defs.h
  
 clean-all: 
 	@rm config.status configure config.log 
